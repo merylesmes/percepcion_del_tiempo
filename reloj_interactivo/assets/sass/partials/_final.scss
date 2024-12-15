@@ -1,0 +1,29 @@
+.final_time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.745);
+    font-size: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: red;
+}
+
+.time_display {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: aquamarine;
+    margin-bottom: 1rem;
+    background-color: red;
+
+}
+
+.description_final{
+    width: 50ch;
+    align-items: center;
+    background-color: red;
+    margin-bottom: 1rem;
+
+}

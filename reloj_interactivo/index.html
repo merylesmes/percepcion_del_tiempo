@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Interactivo</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aboreto&family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Pantalla inicial -->
+    <div class="start_screen">
+        <h1 class="title_start">La Percepción Del Tiempo</h1>
+        <p class="subtitle_start">A continuación, encontrareis un reloj simbólico que representa una
+            percepción subjetiva del tiempo basada en interracciones. Utiliza las teclas "m", "s" y "h" para mover
+            minutos, segundos y horas. Para explorar cómo su interacción distorsiona este flujo temporal único.
+        </p>
+        <button class="button_start">Comenzar</button>
+    </div>
+
+    <!-- Contenedor del reloj -->
+    <div class="app" style="display: none;">
+        <!-- Aquí se insertará el reloj generado por p5.js -->
+    </div>
+
+    <div class="final_time" style="display:none;">
+        <p class="time_display"></p>
+        <p class="description_final">
+            El tiempo no es universal ni absoluto. Tus acciones han moldeado este reloj,
+            creando una percepción única del tiempo. Lo que ves no es solo un reloj,es
+            una representación de tu relación con el tiempo: tus elecciones y acciones dejan huella,
+            construyen conexiones y redefinen lo que significa 'un minuto' o 'una hora'
+        </p>
+    </div>
+
+    <!-- Script de p5.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <!-- Tu archivo JavaScript -->
+    <script src="/app/main.js"></script>
+</body>
+
+</html>

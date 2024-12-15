@@ -1,0 +1,44 @@
+@import 'lib/vars';
+@import 'lib/mixins';
+@import 'lib/reset';
+@import 'lib/fontface';
+@import 'lib/keyframes';
+@import 'lib/bootstrap-icons'; // https://icons.getbootstrap.com/
+@import 'partials/intro';
+@import 'partials/reloj';
+@import 'partials/final';
+
+
+
+
+* {
+  // border: 1px solid pink;
+}
+
+:root {
+  --font-base: $font_size_base;
+  --font-leading-base: $line_height_base;
+  --base-color: $body_color;
+}
+
+html,
+body {
+  // font-family: "Kingston Roman";
+  // font-family: "Aboreto";
+  font-family: "Pinyon Script";
+
+
+  // font-size: var(--font-base);
+  // line-height: var(--font-leading-base);
+  // color: var(--base-color);
+  // min-height: 100vh;
+}
+
+@font-face {
+  font-family: 'Kingston Roman';
+  src: url('../assets/fonts/Kingston-Roman/KingstonRoman.woff2') format('woff2'),
+    url('../assets/fonts/Kingston-Roman/KingstonRoman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
